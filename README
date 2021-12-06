@@ -1,0 +1,17 @@
+# Copyright 2020 Baiatu Bianca <baiatu.daniela2001@gmail.com>
+
+-programul foloseste o structura in care retine detaliile despre imagini
+-programul citeste de la tastatura cate o linie
+-linia citita este impartita cu strtok si se verifica primul cuvant
+-daca este una dintre comenzile valide atunci prelucreaza
+-la primirea LOAD se citeste imaginea din fisierul input si se initializeaza
+structura aferenta respectivei imagini
+-la primirea SELECT se verifica daca se primesc 4 parametrii valizi
+-comanda CROP modifica in functie de dimensiunile selectate anterior
+-comanda SEPIA modifica toate canalele imaginilor folosind formula
+-comanda GRAYSCALE reduce intensitatea fiecarui canal al imaginii
+-comanda ROTATE verifica daca selectia pe care se face rotatia este valida sau
+si in caz afirmativ modifica coordonatele imaginii
+-comanda SAVE deschide fisierul aferent primit in comanda si modifica
+tipul imaginii daca este cazul salvand-o apoi in functie de variabila ascii
+-comanda EXIT face iesirea "gratioasa" din program
